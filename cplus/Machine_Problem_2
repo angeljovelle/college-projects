@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std
+
+;int main (int argc, char** argv) {
+	
+	int kilometerVal;
+	double mileVal;
+
+	cout << "Enter the distance in kilometers: ";
+	cin >> kilometerVal;
+	
+	mileVal = kilometerVal * 0.62137;
+	
+	cout << "The distance in miles is" << mileVal;
+	
+	return 0;
+}
