@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main (int argc, char** argv) {
+
+  float hourVal, minuteVal;
+	
+	cout << "Enter the hour value ";
+	cin >> hourVal;
+	cout << "Enter the minute value:";
+	cin >> minuteVal;
+	
+	cout << "The time is" << hourVal << ":" << minuteVal;
+	
+	return 0;
+	
+}
