@@ -1,3 +1,3 @@
 # college-projects
 
-This is a repository containing some college codes, works, and projects. Currently a work in progress and being organized.
+This is a repository containing my college codes, works, and projects since first year.
