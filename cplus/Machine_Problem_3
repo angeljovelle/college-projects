@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+main () 
+{
+	const float LIGHT = 2.997925 * 10e8;
+	float mass1, energy;
+	
+	cout << "Enter the mass of the object in kilograms: ";
+	cin >> mass1;
+	
+	energy = mass1 * LIGHT * 2;
+	cout << "If the mass is: "<< mass1 << "Then the energy produced is "<< energy;
+	
+	return 0;
+	
+}
