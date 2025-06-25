@@ -1,0 +1,47 @@
+<html lang="en" dir="ltr"><head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p>Calculator</p>
+
+    <form>
+     <input type="number" id="fNumber" name="fNum"><br>
+     <input type="number" id="lNumber" name="lNum"><br>
+     <input type="button" id="submitBtn" value="Add" onclick="addFunction()">
+     <input type="button" id="submitBtn" value="Subtract" onclick="subFunction()">
+     <input type="button" id="submitBtn" value="Multiply" onclick="multiFunction()">
+     <input type="button" id="submitBtn" value="Divide" onclick="divFunction()">
+    </form>
+
+<p id="output"></p>
+
+<script>
+    function addFunction() {
+       var fNumber = parseFloat(document.getElementById('fNumber').value);
+       var lNumber = parseFloat(document.getElementById('lNumber').value);
+       document.getElementById('output').innerHTML = fNumber + lNumber;
+    }
+
+    function subFunction() {
+       var fNumber = parseFloat(document.getElementById('fNumber').value);
+       var lNumber = parseFloat(document.getElementById('lNumber').value);
+       document.getElementById('output').innerHTML = fNumber - lNumber;
+    }
+
+    function multiFunction() {
+       var fNumber = parseFloat(document.getElementById('fNumber').value);
+       var lNumber = parseFloat(document.getElementById('lNumber').value);
+       document.getElementById('output').innerHTML = fNumber * lNumber;
+    }
+
+    function divFunction() {
+       var fNumber = parseFloat(document.getElementById('fNumber').value);
+       var lNumber = parseFloat(document.getElementById('lNumber').value);
+       document.getElementById('output').innerHTML = fNumber / lNumber;
+    }
+ </script>
+
+
+  
+</body></html>
